@@ -3,19 +3,19 @@
     package="com.halil.ozel.movieparadise">
 
     <application
-        android:name=".App"
+        android:name="com.CDAM.App"
         android:allowBackup="true"
         android:icon="@drawable/banner"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Leanback"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ui.search.SearchActivity"></activity>
+        <activity android:name="com.CDAM.ui.search.SearchActivity"></activity>
         <activity
-            android:name=".ui.player.PlayerActivity"
+            android:name="com.CDAM.ui.player.PlayerActivity"
             android:usesCleartextTraffic="true"></activity>
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name="com.CDAM.ui.main.MainActivity"
             android:banner="@drawable/banner"
             android:icon="@drawable/banner"
             android:label="@string/app_name"
@@ -27,7 +27,7 @@
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.detail.DetailActivity" />
+        <activity android:name="com.CDAM.ui.detail.DetailActivity" />
     </application>
     <uses-feature
         android:name="android.hardware.touchscreen"
